@@ -9,9 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>View Note</title>
+        <title>View Note | Simple Note Keeper</title>
     </head>
     <body>
-        <h1>View Note</h1>
+        <h1>Simple Note Keeper</h1>
+        <h2>View Note</h1>
+        <span><b>Title:</b> ${note.title}</span><br><br>
+        <span><b>Contents:</b> <br>${note.contents}</span><br><br>
+        <a href="note?edit" name="edit">Edit</a>
     </body>
 </html>
